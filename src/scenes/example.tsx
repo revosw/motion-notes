@@ -59,21 +59,25 @@ export default makeScene2D(function* (view) {
                     <treble.EighthNote note="E1" />
                     <treble.EighthNote note="A1" />
                     <treble.EighthNote note="B1" />
+                    <treble.BarDivider />
                     <treble.QuarterNote note="B1" />
                     <treble.EighthNote note="A1" />
                     <treble.QuarterNote note="G1" />
                     <treble.EighthNote note="A1" />
                     <treble.EighthNote note="B1" />
                     <treble.EighthNote note="C2" />
+                    <treble.BarDivider />
                     <treble.EighthNote note="E2" />
                     <treble.EighthNote note="B1" />
                     <treble.QuarterNote note="C2" />
                     <treble.QuarterNote note="A1" />
                     <treble.QuarterNote note="G1" />
+                    <treble.BarDivider />
                     <treble.HalfNote note="F1" />
                     <treble.QuarterNote note="G1" />
                     <treble.EighthNote note="A1" />
                     <treble.QuarterNote note="G1" />
+                    <treble.BarDivider />
                     <treble.HalfNote note="A1" />
                 </Staff>
                 <Staff clef="bass" key='Ab'>
@@ -82,19 +86,26 @@ export default makeScene2D(function* (view) {
                     <bass.BarDivider />
                     <bass.HalfNote note='B1' />
                     <bass.HalfNote note='D2' />
+                    <bass.BarDivider />
                     <bass.HalfNote note='C2' />
                     <bass.HalfNote note='F1' />
+                    <bass.BarDivider />
                     <bass.HalfNote note='B1' />
                     <bass.HalfNote note='D2' />
+                    <bass.BarDivider />
                     <bass.HalfNote note='C2' />
                     <bass.QuarterNote note='A2' />
                     <bass.QuarterNote note='G2' />
+                    <bass.BarDivider />
                     <bass.HalfNote note='B1' />
                     <bass.HalfNote note='D2' />
+                    <bass.BarDivider />
                     <bass.HalfNote note='C2' />
                     <bass.HalfNote note='F1' />
+                    <bass.BarDivider />
                     <bass.HalfNote note='D2' />
                     <bass.HalfNote note='E2' />
+                    <bass.BarDivider />
                     <bass.HalfNote note='F2' />
                 </Staff>
                 {/* </Rect> */}
